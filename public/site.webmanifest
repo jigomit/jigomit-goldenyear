@@ -1,0 +1,38 @@
+{
+    "name": "Golden Years Care & Comfort Home",
+    "short_name": "Golden Years",
+    "description": "Compassionate senior care facility providing 24/7 nursing care, memory care, and assisted living services.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FDF8F3",
+    "theme_color": "#1B4332",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/oldage-logo.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/oldage-logo.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/oldage-logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/oldage-logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["health", "medical", "lifestyle"],
+    "lang": "en-US"
+}

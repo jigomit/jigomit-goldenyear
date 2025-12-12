@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__laravel-boost__application-info",
+      "Bash(npm run build:*)",
+      "Bash(vendor/bin/pint:*)",
+      "mcp__herd__get_site_information",
+      "mcp__laravel-boost__get-absolute-url",
+      "Bash(open http://oldage.test)",
+      "mcp__herd__get_all_sites",
+      "Bash(sudo rm:*)",
+      "Bash(chmod:*)",
+      "Bash(open http://oldagehome.test)",
+      "Bash(rm -rf:*)",
+      "Bash(rm:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(ls:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "laravel-boost",
+    "herd"
+  ]
+}
