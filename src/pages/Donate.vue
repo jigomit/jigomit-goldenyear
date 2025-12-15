@@ -323,7 +323,7 @@ onMounted(() => {
                         </div>
                         <h3 class="text-xl font-bold text-[var(--color-dark-text)] mb-3">Volunteer</h3>
                         <p class="text-[var(--color-soft-gray)] mb-6">Share your time and talents with our residents. Every hour counts.</p>
-                        <a href="/contact" class="btn-secondary inline-flex">Learn More</a>
+                        <a href="/contact" class="btn-secondary inline-flex">Learn more about volunteering opportunities</a>
                     </div>
 
                     <!-- Corporate Partnership -->

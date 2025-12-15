@@ -202,7 +202,7 @@ onMounted(() => {
                             </svg>
                         </a>
                         <a href="/about" class="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-white/20 backdrop-blur-md border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-[var(--color-primary-dark)] transition-all duration-300 shadow-lg">
-                            Learn More
+                            Learn more about our senior care home
                         </a>
                     </div>
                 </div>
