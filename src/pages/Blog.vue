@@ -294,6 +294,7 @@ Remember, proper nutrition isn't just about eating—it's about nourishing the b
         image: '/dining.jpg',
     },
     {
+        
         id: 6,
         title: 'Building a Supportive Community: The Social Benefits of Senior Living',
         excerpt: 'Learn how living in a senior care community provides essential social connections, reduces isolation, and creates a sense of belonging that enhances quality of life.',
