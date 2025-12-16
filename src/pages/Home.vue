@@ -166,6 +166,9 @@ onMounted(() => {
                     class="w-full h-full object-cover"
                     fetchpriority="high"
                     decoding="async"
+                    width="1920"
+                    height="1080"
+                    loading="eager"
                 />
                 <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-primary-dark)]/90 via-[var(--color-primary-dark)]/70 to-transparent"></div>
             </div>
@@ -482,14 +485,14 @@ onMounted(() => {
                 <p class="text-white/80 text-lg mb-10 max-w-2xl mx-auto">
                     Schedule a visit today and see firsthand why families choose Golden Years Care Home for their loved ones.
                 </p>
-                <div class="flex flex-wrap justify-center gap-4">
-                    <a href="/contact" class="inline-flex items-center gap-2 px-8 py-4 bg-white text-[var(--color-primary)] font-semibold rounded-full hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
+                    <a href="/contact" class="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 bg-white text-[var(--color-primary)] font-semibold rounded-full hover:shadow-xl hover:scale-105 transition-all duration-300">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                         </svg>
                         Schedule a Visit
                     </a>
-                    <a href="tel:+15551234567" class="inline-flex items-center gap-2 px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300">
+                    <a href="tel:+15551234567" class="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>

@@ -58,12 +58,19 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Preconnect for Performance -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.bunny.net">
 
-    <!-- Fonts - Optimized Loading -->
-    <link rel="preload" href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet"></noscript>
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/homeback.jpg" as="image" type="image/jpeg" fetchpriority="high" imagesrcset="/homeback.jpg" imagesizes="100vw">
+    <link rel="preload" href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" as="style" crossorigin>
+    
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+
+    <!-- Fonts - Optimized Loading with font-display swap -->
+    <link rel="stylesheet" href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700&display=swap" rel="stylesheet"></noscript>
 
     <!-- Structured Data - Organization -->
     <script type="application/ld+json">
